@@ -1,0 +1,24 @@
+.js-gallery {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.picture { 
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  min-height: 0;
+  cursor: pointer;
+}
+
+.description {
+  display: block;
+  margin: 0;
+  padding: 0;
+  height: 40px;
+
+  line-height: 40px;
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="gallery.css">
+  <link rel="stylesheet" href="style.css">
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+</head>
+<body>
+  <div class="container">
+    <div class="js-gallery">
+    </div>
+  </div>
+
+  <script src="gallery.js"></script>
+  <script>
+    initGallery({
+      container: ".js-gallery",
+      images: [
+        {
+          url: "images/photo1.jpeg",
+          description: "Berlin from the boat. September, 2022."
+        },
+        {
+          url: "images/photo2.jpeg",
+          description: "Bike trip in Ahrensfelde. Summer, 2022."
+        },
+        {
+          url: "images/photo3.jpeg",
+          description: "Student dorm in Copenhagen. November, 2022."
+        },
+        {
+          url: "images/photo4.jpeg",
+          description: "BIG project in Copenhagen. November, 2022."
+        },
+        {
+          url: "images/photo5.jpeg",
+          description: "Botanical Garten in Copenhagen. November, 2022."
+        },
+        {
+          url: "images/photo6.jpeg",
+          description: "Sunset somewhere in between Germany and Danmark. November, 2022."
+        },
+        {
+          url: "images/photo7.jpeg",
+          description: "Public square in Copenhagen. November, 2022."
+        },
+      ]
+    })
+  </script>
+</body>
+</html>
